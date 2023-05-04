@@ -1,0 +1,79 @@
+# Standards: 1.2
+---
+- name: Check helm version
+  register: helm_core_version_check
+  failed_when: False
+  changed_when: False
+  check_mode: False
+  shell: /usr/bin/helm version --short
+  tags:
+    - helm
+
+- name: Check helm change
+  set_fact:
+    helm_core_version_changed: "{{ helm_core_version_check.rc != 0 or (helm_core_version_check.stdout_lines is defined and helm_core_version not in helm_core_version_check.stdout_lines[0]) | bool }}"
+  tags:
+    - helm
+
+- name: Download helm release
+  when:
+    - helm_core_version_changed
+  unarchive:
+    src: "{{ helm_core_download }}"
+    dest: /usr/local/src
+    remote_src: True
+    owner: root
+    group: root
+  tags:
+    - helm
+
+- name: Copy helm binary
+  when:
+    - helm_core_version_changed
+    - not ansible_check_mode
+  copy:
+    src: "/usr/local/src/linux-{{ helm_core_arch }}/helm"
+    dest: "{{ helm_install_path }}/helm"
+    remote_src: True
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - helm
+
+- name: Remove helm directory
+  file:
+    path: "/usr/local/src/linux-{{ helm_core_arch }}"
+    state: absent
+  tags:
+    - helm
+
+- name: Download docs release
+  when:
+    - helm_docs_enabled
+  unarchive:
+    src: "{{ helm_docs_download }}"
+    dest: "{{ helm_install_path }}"
+    include:
+      - helm-docs
+    remote_src: True
+    owner: root
+    group: root
+  tags:
+    - helm
+
+- name: Download test release
+  when:
+    - helm_test_enabled
+  unarchive:
+    src: "{{ helm_test_download }}"
+    dest: "{{ helm_install_path }}"
+    include:
+      - ct
+    remote_src: True
+    owner: root
+    group: root
+  tags:
+    - helm
+
+...

@@ -1,0 +1,42 @@
+# Standards: 1.2
+---
+# @var helm_core_version:description: Version of helm binary to install
+# renovate: datasource=github-releases depName=helm/helm
+helm_core_version: 3.11.3
+
+# @var helm_core_arch:description: Architecture for helm binary
+helm_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
+# @var helm_core_download:description: URL to download helm binary from
+helm_core_download: "https://get.helm.sh/helm-v{{ helm_core_version }}-linux-{{ helm_core_arch }}.tar.gz"
+
+# @var helm_docs_enabled:description: Enable installation of helm docs
+helm_docs_enabled: True
+
+# @var helm_docs_version:description: Version of helm docs to install
+# renovate: datasource=github-releases depName=norwoodj/helm-docs
+helm_docs_version: 1.11.0
+
+# @var helm_docs_arch:description: Architecture for helm docs
+helm_docs_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'x86_64' }}"
+
+# @var helm_docs_download:description: URL to download helm docs from
+helm_docs_download: "https://github.com/norwoodj/helm-docs/releases/download/v{{ helm_docs_version }}/helm-docs_{{ helm_docs_version }}_Linux_{{ helm_docs_arch }}.tar.gz"
+
+# @var helm_test_enabled:description: Enable installation of helm test
+helm_test_enabled: True
+
+# @var helm_test_version:description: Version of helm test to install
+# renovate: datasource=github-releases depName=helm/chart-testing
+helm_test_version: 3.8.0
+
+# @var helm_test_arch:description: Architecture for helm test
+helm_test_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
+# @var helm_test_download:description: URL to download helm test from
+helm_test_download: "https://github.com/helm/chart-testing/releases/download/v{{ helm_test_version }}/chart-testing_{{ helm_test_version }}_linux_{{ helm_test_arch }}.tar.gz"
+
+# @var helm_install_path:description: Path to install the binaries
+helm_install_path: /usr/bin
+
+...
