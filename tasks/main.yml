@@ -5,7 +5,7 @@
   failed_when: False
   changed_when: False
   check_mode: False
-  shell: /usr/bin/helm version --short
+  command: /usr/bin/helm version --short
   tags:
     - helm
 
