@@ -2,7 +2,7 @@
 ---
 # @var helm_core_version:description: Version of helm binary to install
 # renovate: datasource=github-releases depName=helm/helm
-helm_core_version: 3.12.0
+helm_core_version: 3.12.1
 
 # @var helm_core_arch:description: Architecture for helm binary
 helm_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
