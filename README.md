@@ -91,7 +91,7 @@ URL to download helm docs from
 
 ```YAML
 helm_docs_download: https://github.com/norwoodj/helm-docs/releases/download/v{{ helm_docs_version
-  }}/helm-docs_{{ helm_docs_version }}_Linux_{{ helm_docs_arch }}.tar.gz
+  }}/helm-docs_Linux_{{ helm_docs_arch }}.tar.gz
 ```
 
 ### helm_docs_enabled
@@ -111,7 +111,7 @@ Version of helm docs to install
 #### Default value
 
 ```YAML
-helm_docs_version: 1.11.0
+helm_docs_version: 1.11.2
 ```
 
 ### helm_install_path
