@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.0](https://github.com/rolehippie/helm/compare/v1.2.1...v1.3.0) (2023-10-02)
+
+
+### Features
+
+* **deps:** update dependency helm/helm to v3.13.0 ([aaeb16b](https://github.com/rolehippie/helm/commit/aaeb16b6bbcff82f0e8df7d76b34bfb175f9f002))
+
+
+### Bugfixes
+
+* **deps:** update dependency norwoodj/helm-docs to v1.11.2 ([e2371b9](https://github.com/rolehippie/helm/commit/e2371b963aa3c46ee166117fa3d7bcc7c378c338))
+* healm-docs releases do not contain versions numbers anymore ([60c3377](https://github.com/rolehippie/helm/commit/60c33770d28926cdb3cdde3b5c3130614c567b3f))
+
 ## [1.2.1](https://github.com/rolehippie/helm/compare/v1.2.0...v1.2.1) (2023-08-14)
 
 
