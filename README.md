@@ -111,7 +111,7 @@ Version of helm docs to install
 #### Default value
 
 ```YAML
-helm_docs_version: 1.11.2
+helm_docs_version: 1.11.3
 ```
 
 ### helm_install_path
