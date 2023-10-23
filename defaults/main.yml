@@ -21,7 +21,7 @@ helm_docs_version: 1.11.3
 helm_docs_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'x86_64' }}"
 
 # @var helm_docs_download:description: URL to download helm docs from
-helm_docs_download: "https://github.com/norwoodj/helm-docs/releases/download/v{{ helm_docs_version }}/helm-docs_Linux_{{ helm_docs_arch }}.tar.gz"
+helm_docs_download: "https://github.com/norwoodj/helm-docs/releases/download/v{{ helm_docs_version }}/helm-docs_{{ helm_docs_version }}_Linux_{{ helm_docs_arch }}.tar.gz"
 
 # @var helm_test_enabled:description: Enable installation of helm test
 helm_test_enabled: True
