@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.2](https://github.com/rolehippie/helm/compare/v1.3.1...v1.3.2) (2023-10-30)
+
+
+### Bugfixes
+
+* add missing version info to docs download url ([adf892d](https://github.com/rolehippie/helm/commit/adf892d637291ba50caf0192305b2cf3197e2901))
+* **deps:** update dependency helm/helm to v3.13.1 ([1027d03](https://github.com/rolehippie/helm/commit/1027d03098bf52d80aa960cbb07d9a6ef2e12742))
+
 ## [1.3.1](https://github.com/rolehippie/helm/compare/v1.3.0...v1.3.1) (2023-10-16)
 
 
