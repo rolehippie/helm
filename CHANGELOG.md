@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/rolehippie/helm/compare/v1.4.2...v1.5.0) (2023-12-25)
+
+
+### Features
+
+* **deps:** update dependency norwoodj/helm-docs to v1.12.0 ([e9acab5](https://github.com/rolehippie/helm/commit/e9acab5d64417e574c82fa00fd128f0222957f32))
+
 ## [1.4.2](https://github.com/rolehippie/helm/compare/v1.4.1...v1.4.2) (2023-12-18)
 
 
