@@ -1,16 +1,15 @@
-# Standards: 1.2
 ---
 - name: Check helm version
   register: helm_core_version_check
   failed_when: False
   changed_when: False
   check_mode: False
-  command: /usr/bin/helm version --short
+  ansible.builtin.command: /usr/bin/helm version --short
   tags:
     - helm
 
 - name: Check helm change
-  set_fact:
+  ansible.builtin.set_fact:
     helm_core_version_changed: "{{ helm_core_version_check.rc != 0 or (helm_core_version_check.stdout_lines is defined and helm_core_version not in helm_core_version_check.stdout_lines[0]) | bool }}"
   tags:
     - helm
@@ -18,7 +17,7 @@
 - name: Download helm release
   when:
     - helm_core_version_changed
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ helm_core_download }}"
     dest: /usr/local/src
     remote_src: True
@@ -31,7 +30,7 @@
   when:
     - helm_core_version_changed
     - not ansible_check_mode
-  copy:
+  ansible.builtin.copy:
     src: "/usr/local/src/linux-{{ helm_core_arch }}/helm"
     dest: "{{ helm_install_path }}/helm"
     remote_src: True
@@ -42,7 +41,7 @@
     - helm
 
 - name: Remove helm directory
-  file:
+  ansible.builtin.file:
     path: "/usr/local/src/linux-{{ helm_core_arch }}"
     state: absent
   tags:
@@ -51,7 +50,7 @@
 - name: Download docs release
   when:
     - helm_docs_enabled
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ helm_docs_download }}"
     dest: "{{ helm_install_path }}"
     include:
@@ -65,7 +64,7 @@
 - name: Download test release
   when:
     - helm_test_enabled
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ helm_test_download }}"
     dest: "{{ helm_install_path }}"
     include:

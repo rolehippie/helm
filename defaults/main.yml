@@ -1,4 +1,3 @@
-# Standards: 1.2
 ---
 # @var helm_core_version:description: Version of helm binary to install
 # renovate: datasource=github-releases depName=helm/helm
