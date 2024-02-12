@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0](https://github.com/rolehippie/helm/compare/v1.6.0...v2.0.0) (2024-02-12)
+
+
+### Features
+
+* used full qualified collection names ([f7b0304](https://github.com/rolehippie/helm/commit/f7b03047cc3ed3f77819e919e83120a6a3d6399b))
+
 ## [1.6.0](https://github.com/rolehippie/helm/compare/v1.5.0...v1.6.0) (2024-01-22)
 
 
