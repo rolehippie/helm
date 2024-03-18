@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/helm/compare/v2.0.0...v2.1.0) (2024-03-18)
+
+
+### Features
+
+* **deps:** update dependency norwoodj/helm-docs to v1.13.1 ([c074e38](https://github.com/rolehippie/helm/commit/c074e388fdab999817f50fae281f879ecc24485d))
+
+
+### Bugfixes
+
+* **deps:** update dependency helm/helm to v3.14.3 ([8b62e1b](https://github.com/rolehippie/helm/commit/8b62e1bf98a4971769f2458707fcd023df8723be))
+
 ## [2.0.0](https://github.com/rolehippie/helm/compare/v1.6.0...v2.0.0) (2024-02-12)
 
 
