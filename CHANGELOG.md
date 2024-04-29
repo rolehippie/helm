@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/rolehippie/helm/compare/v2.1.1...v2.2.0) (2024-04-29)
+
+
+### Features
+
+* **deps:** update dependency helm/chart-testing to v3.11.0 ([ba7ac96](https://github.com/rolehippie/helm/commit/ba7ac96854e616d244a86f7ecf99e9ebca053501))
+
 ## [2.1.1](https://github.com/rolehippie/helm/compare/v2.1.0...v2.1.1) (2024-04-22)
 
 
