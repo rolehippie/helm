@@ -14,7 +14,7 @@ helm_docs_enabled: True
 
 # @var helm_docs_version:description: Version of helm docs to install
 # renovate: datasource=github-releases depName=norwoodj/helm-docs
-helm_docs_version: 1.13.1
+helm_docs_version: 1.14.2
 
 # @var helm_docs_arch:description: Architecture for helm docs
 helm_docs_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'x86_64' }}"
