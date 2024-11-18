@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.2](https://github.com/rolehippie/helm/compare/v2.5.1...v2.5.2) (2024-11-18)
+
+
+### Bugfixes
+
+* **deps:** update dependency helm/helm to v3.16.3 ([#44](https://github.com/rolehippie/helm/issues/44)) ([753229a](https://github.com/rolehippie/helm/commit/753229a635cf1c8dd0958a51a88c8b9109f7286e))
+
 ## [2.5.1](https://github.com/rolehippie/helm/compare/v2.5.0...v2.5.1) (2024-10-14)
 
 
