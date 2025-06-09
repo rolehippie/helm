@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.8.0](https://github.com/rolehippie/helm/compare/v2.7.1...v2.8.0) (2025-06-09)
+
+
+### Features
+
+* **deps:** update dependency helm/chart-testing to v3.13.0 ([#55](https://github.com/rolehippie/helm/issues/55)) ([7de2d49](https://github.com/rolehippie/helm/commit/7de2d490e4d91763a2901cd2937050d3323417c2))
+
+
+### Bugfixes
+
+* **deps:** update dependency helm/helm to v3.18.2 ([#56](https://github.com/rolehippie/helm/issues/56)) ([068fdd4](https://github.com/rolehippie/helm/commit/068fdd42dd2731b3159f59e7c0cb63d39708eef4))
+
 ## [2.7.1](https://github.com/rolehippie/helm/compare/v2.7.0...v2.7.1) (2025-06-02)
 
 
