@@ -1,4 +1,4 @@
-# helm
+# workspace
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/helm)
 [![General Workflow](https://github.com/rolehippie/helm/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/helm/actions/workflows/general.yml)
@@ -59,8 +59,8 @@ URL to download helm binary from
 #### Default value
 
 ```YAML
-helm_core_download: https://get.helm.sh/helm-v{{ helm_core_version }}-linux-{{ helm_core_arch
-  }}.tar.gz
+helm_core_download: https://get.helm.sh/helm-v{{ helm_core_version }}-linux-{{ 
+  helm_core_arch }}.tar.gz
 ```
 
 ### helm_core_version
@@ -70,7 +70,7 @@ Version of helm binary to install
 #### Default value
 
 ```YAML
-helm_core_version: 3.18.3
+helm_core_version: 3.18.4
 ```
 
 ### helm_docs_arch
@@ -90,8 +90,9 @@ URL to download helm docs from
 #### Default value
 
 ```YAML
-helm_docs_download: https://github.com/norwoodj/helm-docs/releases/download/v{{ helm_docs_version
-  }}/helm-docs_{{ helm_docs_version }}_Linux_{{ helm_docs_arch }}.tar.gz
+helm_docs_download: https://github.com/norwoodj/helm-docs/releases/download/v{{ 
+  helm_docs_version }}/helm-docs_{{ helm_docs_version }}_Linux_{{ helm_docs_arch
+  }}.tar.gz
 ```
 
 ### helm_docs_enabled
@@ -141,8 +142,9 @@ URL to download helm test from
 #### Default value
 
 ```YAML
-helm_test_download: https://github.com/helm/chart-testing/releases/download/v{{ helm_test_version
-  }}/chart-testing_{{ helm_test_version }}_linux_{{ helm_test_arch }}.tar.gz
+helm_test_download: https://github.com/helm/chart-testing/releases/download/v{{ 
+  helm_test_version }}/chart-testing_{{ helm_test_version }}_linux_{{ 
+  helm_test_arch }}.tar.gz
 ```
 
 ### helm_test_enabled
@@ -168,7 +170,6 @@ helm_test_version: 3.13.0
 ## Discovered Tags
 
 **_helm_**
-
 
 ## Dependencies
 
