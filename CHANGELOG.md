@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.4](https://github.com/rolehippie/helm/compare/v2.8.3...v2.8.4) (2025-08-25)
+
+
+### Bugfixes
+
+* **deps:** update dependency helm/helm to v3.18.6 ([#61](https://github.com/rolehippie/helm/issues/61)) ([1393c02](https://github.com/rolehippie/helm/commit/1393c02a66286002d307ca0bd896a5b43374214c))
+
 ## [2.8.3](https://github.com/rolehippie/helm/compare/v2.8.2...v2.8.3) (2025-08-18)
 
 
