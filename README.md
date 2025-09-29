@@ -1,4 +1,4 @@
-# workspace
+# helm
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/helm)
 [![General Workflow](https://github.com/rolehippie/helm/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/helm/actions/workflows/general.yml)
@@ -49,7 +49,8 @@ Architecture for helm binary
 #### Default value
 
 ```YAML
-helm_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+helm_core_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture
+  == 'arm64' else 'amd64' }}"
 ```
 
 ### helm_core_download
@@ -80,7 +81,8 @@ Architecture for helm docs
 #### Default value
 
 ```YAML
-helm_docs_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'x86_64' }}"
+helm_docs_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture
+  == 'arm64' else 'x86_64' }}"
 ```
 
 ### helm_docs_download
@@ -132,7 +134,8 @@ Architecture for helm test
 #### Default value
 
 ```YAML
-helm_test_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+helm_test_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture
+  == 'arm64' else 'amd64' }}"
 ```
 
 ### helm_test_download
