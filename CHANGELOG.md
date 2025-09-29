@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.0](https://github.com/rolehippie/helm/compare/v2.9.0...v2.10.0) (2025-09-29)
+
+
+### Features
+
+* apply new repo structure and update linting and integrate noble ([94db7ca](https://github.com/rolehippie/helm/commit/94db7ca013fc7916ccc88e8bf3cafc54e8c96dae))
+
 ## [2.9.0](https://github.com/rolehippie/helm/compare/v2.8.4...v2.9.0) (2025-09-15)
 
 
