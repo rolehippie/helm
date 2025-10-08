@@ -27,7 +27,7 @@ helm_test_enabled: true
 
 # @var helm_test_version:description: Version of helm test to install
 # renovate: datasource=github-releases depName=helm/chart-testing
-helm_test_version: 3.13.0
+helm_test_version: 3.14.0
 
 # @var helm_test_arch:description: Architecture for helm test
 helm_test_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
