@@ -71,7 +71,7 @@ Version of helm binary to install
 #### Default value
 
 ```YAML
-helm_core_version: 4.0.2
+helm_core_version: 4.0.3
 ```
 
 ### helm_docs_arch
