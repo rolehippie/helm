@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.0.3](https://github.com/rolehippie/helm/compare/v3.0.2...v3.0.3) (2026-01-19)
+
+### Dependencies
+
+* **patch:** update dependency helm/helm to v4.0.5 ([#92](https://github.com/rolehippie/helm/issues/92)) ([b7c1cb0](https://github.com/rolehippie/helm/commit/b7c1cb0de8afe1765ee0ec18cb4ade5401f5a57a))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([3ccf200](https://github.com/rolehippie/helm/commit/3ccf200a8718a0836037c9c02dbc57395f2a2219))
+* **flake:** updated lockfile [skip ci] ([9097894](https://github.com/rolehippie/helm/commit/909789411d1d632b5b4281b15bfef9256ad00336))
+* **flake:** updated lockfile [skip ci] ([5764bee](https://github.com/rolehippie/helm/commit/5764bee8b37acbcfc4ad49c9495126db4ea242fc))
+* **flake:** updated lockfile [skip ci] ([7abe7ad](https://github.com/rolehippie/helm/commit/7abe7ad0937d53d41a23206004d13e6b33c7d24b))
+* **flake:** updated lockfile [skip ci] ([b371278](https://github.com/rolehippie/helm/commit/b37127846fccf3d4f49f8bbfd73b35b6a3c96d68))
+
 ## [3.0.2](https://github.com/rolehippie/helm/compare/v3.0.1...v3.0.2) (2025-12-15)
 
 
