@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.2.2](https://github.com/rolehippie/helm/compare/v3.2.1...v3.2.2) (2026-06-22)
+
+### Dependencies
+
+* **patch:** update version prefix to v4.2.2 ([#104](https://github.com/rolehippie/helm/issues/104)) ([d94d87f](https://github.com/rolehippie/helm/commit/d94d87f0c62f0a8dffc37bc2909487442df7bba9))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([1c4d755](https://github.com/rolehippie/helm/commit/1c4d755e90ab0e30f3aa7583cb4b71b55664a0d8))
+
 ## [3.2.1](https://github.com/rolehippie/helm/compare/v3.2.0...v3.2.1) (2026-06-15)
 
 ### Dependencies
