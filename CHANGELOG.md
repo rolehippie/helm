@@ -1,5 +1,7 @@
 # Changelog
 
+## [3.2.3](https://github.com/rolehippie/helm/compare/v3.2.2...v3.2.3) (2026-07-13)
+
 ## [3.2.2](https://github.com/rolehippie/helm/compare/v3.2.1...v3.2.2) (2026-06-22)
 
 ### Dependencies
