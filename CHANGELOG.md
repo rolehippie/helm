@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.0](https://github.com/rolehippie/helm/compare/v3.3.0...v3.4.0) (2026-08-10)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#111](https://github.com/rolehippie/helm/issues/111)) ([2a6d63e](https://github.com/rolehippie/helm/commit/2a6d63edae48fd503f85765c9e71fdf356f9d3a1))
+* **patch:** update dependency python to v3.14.7 ([#109](https://github.com/rolehippie/helm/issues/109)) ([1e693e8](https://github.com/rolehippie/helm/commit/1e693e8a1d2303a02468c9ed50a7fa342334db12))
+
 ## [3.3.0](https://github.com/rolehippie/helm/compare/v3.2.3...v3.3.0) (2026-07-27)
 
 ## [3.2.3](https://github.com/rolehippie/helm/compare/v3.2.2...v3.2.3) (2026-07-13)
