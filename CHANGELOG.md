@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.0](https://github.com/rolehippie/helm/compare/v3.5.1...v3.6.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([70d1eca](https://github.com/rolehippie/helm/commit/70d1eca2eec83fc54f02487ff577ada41bb675b1))
+* use new required facts as attributes ([0461709](https://github.com/rolehippie/helm/commit/046170958ffee5f92203652b047ac6f4afd82eea))
+
 ## [3.5.1](https://github.com/rolehippie/helm/compare/v3.5.0...v3.5.1) (2026-08-31)
 
 ### Dependencies
