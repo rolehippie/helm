@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.7.0](https://github.com/rolehippie/helm/compare/v3.6.0...v3.7.0) (2026-09-14)
+
+### Dependencies
+
+* **minor:** update dependency helm/helm to v4.3.0 ([#119](https://github.com/rolehippie/helm/issues/119)) ([b340a52](https://github.com/rolehippie/helm/commit/b340a52ca6edea355e017db632ed20146722c05f))
+* **mise:** update dependency pipx:ansible-core to v2.21.4 ([#118](https://github.com/rolehippie/helm/issues/118)) ([134212d](https://github.com/rolehippie/helm/commit/134212d19a15949488bc57573279c66de6581799))
+* **mise:** update dependency prek to v0.5.3 ([#120](https://github.com/rolehippie/helm/issues/120)) ([22f8e36](https://github.com/rolehippie/helm/commit/22f8e36852443f2b6f0a4140993aad07c0ce2224))
+
 ## [3.6.0](https://github.com/rolehippie/helm/compare/v3.5.1...v3.6.0) (2026-09-07)
 
 ### Features
