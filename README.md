@@ -159,7 +159,7 @@ Version of helm test to install
 #### Default value
 
 ```YAML
-helm_test_version: 3.14.0
+helm_test_version: 3.15.0
 ```
 
 ## Discovered Tags
