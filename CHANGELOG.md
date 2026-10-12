@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.8.0](https://github.com/rolehippie/helm/compare/v3.7.0...v3.8.0) (2026-10-12)
+
+### Dependencies
+
+* **minor:** update dependency helm/chart-testing to v3.15.0 ([#129](https://github.com/rolehippie/helm/issues/129)) ([0ce7736](https://github.com/rolehippie/helm/commit/0ce7736c72bf5beb830d561c8ad3da19e2ad896d))
+* **mise:** update dependency pipx:ansible-core to v2.21.5 ([#127](https://github.com/rolehippie/helm/issues/127)) ([0ab5a63](https://github.com/rolehippie/helm/commit/0ab5a632d50c349219045de19f4b45d07db057b4))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.2 ([#121](https://github.com/rolehippie/helm/issues/121)) ([54afa7f](https://github.com/rolehippie/helm/commit/54afa7f49fce8b2e6c0b362106c446fa424453a2))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.3 ([#128](https://github.com/rolehippie/helm/issues/128)) ([b19c5dd](https://github.com/rolehippie/helm/commit/b19c5dd8d54bef0cbfcb5f9ddb00fcdd63c35edc))
+* **mise:** update dependency pipx:ansible-lint to v26.10.0 ([#130](https://github.com/rolehippie/helm/issues/130)) ([1420871](https://github.com/rolehippie/helm/commit/14208713b4d92d3b74accbd886a210786ef7fb36))
+* **mise:** update dependency pipx:ansible-lint to v26.9.0 ([#122](https://github.com/rolehippie/helm/issues/122)) ([d7add6a](https://github.com/rolehippie/helm/commit/d7add6abfecba8a21328760aae5cbe5151a355d4))
+* **mise:** update dependency pipx:molecule to v26.9.0 ([#123](https://github.com/rolehippie/helm/issues/123)) ([a55d5b9](https://github.com/rolehippie/helm/commit/a55d5b94587ab30aa95b925ee8653be93dd98f79))
+* **mise:** update dependency prek to v0.5.4 ([#124](https://github.com/rolehippie/helm/issues/124)) ([93683ae](https://github.com/rolehippie/helm/commit/93683ae0687442d9a13ccc35d54c6a19a60a7b42))
+* **mise:** update dependency prek to v0.5.5 ([#126](https://github.com/rolehippie/helm/issues/126)) ([65ec9a7](https://github.com/rolehippie/helm/commit/65ec9a79575fcd70563d2453be8fcad676d8b06c))
+
 ## [3.7.0](https://github.com/rolehippie/helm/compare/v3.6.0...v3.7.0) (2026-09-14)
 
 ### Dependencies
