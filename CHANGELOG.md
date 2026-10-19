@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.8.1](https://github.com/rolehippie/helm/compare/v3.8.0...v3.8.1) (2026-10-19)
+
+### Dependencies
+
+* **mise:** update dependency pipx:ansible-lint to v26.10.1 ([#132](https://github.com/rolehippie/helm/issues/132)) ([82b5545](https://github.com/rolehippie/helm/commit/82b55459807ee99e8d8bd7b2dbce4396f58d03f4))
+* **mise:** update dependency pipx:molecule to v26.10.0 ([#131](https://github.com/rolehippie/helm/issues/131)) ([5fbc1f4](https://github.com/rolehippie/helm/commit/5fbc1f4386714ef4b74e8db665ccf9b0b249e70c))
+* **mise:** update dependency prek to v0.5.6 ([#134](https://github.com/rolehippie/helm/issues/134)) ([a79542c](https://github.com/rolehippie/helm/commit/a79542cbd289d9e48eb319ca56df971a0dce967f))
+* **patch:** update dependency helm/helm to v4.3.1 ([#133](https://github.com/rolehippie/helm/issues/133)) ([7e776b5](https://github.com/rolehippie/helm/commit/7e776b55fb81f97685884f5a6470a9a2a4a52df6))
+
 ## [3.8.0](https://github.com/rolehippie/helm/compare/v3.7.0...v3.8.0) (2026-10-12)
 
 ### Dependencies
