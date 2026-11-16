@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.8.2](https://github.com/rolehippie/helm/compare/v3.8.1...v3.8.2) (2026-11-16)
+
+* automated readme update [skip ci] ([f136aab](https://github.com/rolehippie/helm/commit/f136aab1a8425e6128cc0b3dc1d057df69c5df11))
+* automated release update [skip ci] ([947b83d](https://github.com/rolehippie/helm/commit/947b83d4b6c6f4c0f1c7d6fa7a3091709d24a2ae))
+* automated release update [skip ci] ([390f21b](https://github.com/rolehippie/helm/commit/390f21bf97eb93b466af6ab5892e149d202902cc))
+* automated release update [skip ci] ([803f7d4](https://github.com/rolehippie/helm/commit/803f7d46843637df84d3d51393dfcfc2e71f3194))
+
+### Dependencies
+
+* **mise:** update dependency pipx:ansible-core to v2.22.0 ([#138](https://github.com/rolehippie/helm/issues/138)) ([6e5ead6](https://github.com/rolehippie/helm/commit/6e5ead6a020687c7a54874feeee69cb823b72a41))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.4 ([#142](https://github.com/rolehippie/helm/issues/142)) ([48c7c44](https://github.com/rolehippie/helm/commit/48c7c44aa13d054bbb14648edf1a64b0ac7b5c39))
+* **mise:** update dependency pipx:ansible-lint to v26.11.0 ([#140](https://github.com/rolehippie/helm/issues/140)) ([f6a330b](https://github.com/rolehippie/helm/commit/f6a330bf168a2826f4d536ba10229ba974c0c27d))
+* **mise:** update dependency pipx:molecule to v26.11.0 ([#141](https://github.com/rolehippie/helm/issues/141)) ([352e5f7](https://github.com/rolehippie/helm/commit/352e5f7a150e079290b4412b851a8d6cb689a5b0))
+* **mise:** update dependency prek to v0.5.10 ([#139](https://github.com/rolehippie/helm/issues/139)) ([095f388](https://github.com/rolehippie/helm/commit/095f38838d3514190c16f048c0fc04df1608b614))
+* **mise:** update dependency prek to v0.5.11 ([#144](https://github.com/rolehippie/helm/issues/144)) ([14e7119](https://github.com/rolehippie/helm/commit/14e7119d2dd94d62893cb497cdfdac83ebe63965))
+* **mise:** update dependency prek to v0.5.7 ([#135](https://github.com/rolehippie/helm/issues/135)) ([f48d7b8](https://github.com/rolehippie/helm/commit/f48d7b8ff56c541164f212cbf8dc88b5e854c546))
+* **mise:** update dependency prek to v0.5.9 ([#137](https://github.com/rolehippie/helm/issues/137)) ([9bace67](https://github.com/rolehippie/helm/commit/9bace67346c4989438b0128ce09e0a1bae74a8d3))
+* **mise:** update node.js to v26 ([#136](https://github.com/rolehippie/helm/issues/136)) ([37fc94f](https://github.com/rolehippie/helm/commit/37fc94f23f1ab745099ffce67279db035613971a))
+* **patch:** update dependency helm/helm to v4.3.2 ([#143](https://github.com/rolehippie/helm/issues/143)) ([3816988](https://github.com/rolehippie/helm/commit/38169881640c527dd1686d4fcc0b3d27501f5c88))
+
 ## [3.8.1](https://github.com/rolehippie/helm/compare/v3.8.0...v3.8.1) (2026-10-19)
 
 ### Dependencies
